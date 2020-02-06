@@ -17,5 +17,9 @@ repositories {
 
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}"
+    implementation "io.micrometer:micrometer-core:latest.release"
+    implementation "io.micrometer:micrometer-registry-prometheus:latest.release"
+    implementation group: 'org.jfree', name: 'jfreechart', version: '1.5.0'
 }
 
